@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mon Premier Formulaire</title>
+</head>
+<body>
+<h1>Votre Avis Nous Intéresse</h1>
+<form>
+	<table>
+		<td>
+	<fieldset>
+		<legend>Informations Personelles</legend>
+		<ol>
+			<li>Nom <input type="text" name="" required=""></li>
+			<li>Date de naissance <input type="date" name=""required=""></li>
+			<li>Site <input type="site" name="" required="" placeholder="www.monsite.com"></li>
+			<li><label for="Emploi">Emploi  <select id="select">
+        	<option></option>
+        	<option>Etudiant</option>
+        	<option>Administrateur Réseau</option>
+        	<option>Développeur web</option>
+        	<option>Web Designer</option>
+        	<option>DevOps</option>
+        </select>
+			<li><label for="Salaire">Approx. Salaire Annuel </label><input type="number" name="Salaire" step="1000" min="1000"></li>
+		</ol>
+	</fieldset>
+	</td>
+	<td>
+	<fieldset>
+		<legend>Informations de Contact</legend>
+		<ol>
+			<li>Adresse ligne 1 <br> <input type="text" name="" required=""></li>
+			<li>Adresse ligne 2 <br> <input type="text" name=""required=""></li>
+			<li><label for="Pays">Pays  <select id="select">
+        	<option></option>
+        	<option>Algerie</option>
+        	<option>Tunisie</option>
+        	<option>Maroc</option>
+        </select></li>
+			<li>Tél <input type="number" name=""required="" placeholder="eg: +21367..."></li>
+			<li>Courriel <br><input type="text" name="" required=""></li>
+		</ol>
+	</fieldset>
+</td>
+	</table>
+</form>
+<h1>Préférences</h1>
+<div>Choisir une couleur<input type="color" name="" value="black" required=""> <br> 
+	</div>
+<div>Sur une échelle de 1 à 10. quel est votre defré d'enthousiasme pour HTML5 ?<input type="range" name="" required=""> <br></div>
+<div><input type="submit" name="" value="Envoyer">
+</div>
+</body>
+</html>
